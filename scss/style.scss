@@ -1,9 +1,23 @@
+@use 'reset';
+
+html{
+    font-size: 10px;
+}
+
 body{
-    margin: 0;
+    font-family: "Reddit Mono", monospace;
 }
 
 header{
     height: 100vh;
     background: url('../assets/ing/bg_header.webp') center/cover;
-}
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    h1{
+        font-size: 3.8rem;
+        font-weight: bold;
+    }
+}
