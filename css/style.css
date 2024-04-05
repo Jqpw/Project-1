@@ -52,17 +52,22 @@ table {
   border-spacing: 0;
 }
 
+* {
+  transition: 0.3s;
+}
+
 html {
   font-size: 10px;
 }
 
 body {
   font-family: "Reddit Mono", monospace;
+  height: 300vh;
 }
 
 header {
   height: 100vh;
-  background: url("../assets/ing/bg_header.webp") center/cover;
+  background: url("../assets/ing/bg_header.webp") center/cover fixed;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -71,6 +76,18 @@ header {
 header h1 {
   font-size: 3.8rem;
   font-weight: bold;
+  text-align: center;
+  line-height: 5rem;
+}
+@media screen and (min-width: 800px) {
+  header h1 {
+    font-size: 5rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  header h1 {
+    font-size: 8rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
