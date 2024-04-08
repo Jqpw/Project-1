@@ -10,3 +10,9 @@ body{
     font-family: "Reddit Mono", monospace;
     height: 300vh;
 }
+
+//reset link
+a{
+    color: inherit;
+    text-decoration: none;
+}
