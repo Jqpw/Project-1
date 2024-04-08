@@ -52,10 +52,6 @@ table {
   border-spacing: 0;
 }
 
-* {
-  transition: 0.3s;
-}
-
 html {
   font-size: 10px;
 }
@@ -88,6 +84,10 @@ header h1 {
   header h1 {
     font-size: 8rem;
   }
+}
+
+* {
+  transition: 0.3s;
 }
 
 /*# sourceMappingURL=style.css.map */
