@@ -70,6 +70,33 @@ a {
   text-decoration: none;
 }
 
+nav {
+  display: flex;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #B01000;
+  color: #fff;
+  z-index: 2;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.logo {
+  flex-basis: 50%;
+  padding-left: 1%;
+}
+
+.menu {
+  flex-basis: 49%;
+  text-align: right;
+}
+.menu span {
+  font-size: 3.6rem;
+}
+
 header {
   height: 100vh;
   background: url("../assets/ing/bg_header.webp") center/cover fixed;
@@ -90,7 +117,7 @@ header h1 {
     line-height: 8rem;
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
   header h1 {
     font-size: 8rem;
   }
@@ -133,6 +160,11 @@ header::after {
 @media screen and (min-width: 800px) {
   .header-box a {
     width: 35%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-box a {
+    width: 25%;
   }
 }
 
